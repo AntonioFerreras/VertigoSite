@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf_8">
+    <meta name="author" content="Antonio Ferreras">
+    <meta name="description" content="The official home of the stylistic, Vertigo MC shader by SNURFx.">
+    <title>Vertigo MC shaderpack</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <a id="title" class="fadingIn" href="index.html">Vertigo by SNURFx</a>
+        <img onclick="openMenu()" class="menu" id="menu-open" src="res/3-bars.png">
+        <img onclick="closeMenu()" class="menu" id="menu-close" src="res/close.png">
+        <a href="#contact" class="nav-button fadingIn">Contact</a>
+        <a href="#gallery" class="nav-button fadingIn">Gallery</a>
+        <a href="#download" class="nav-button fadingIn">Download</a>
+        <a href="#features" class="nav-button fadingIn">About</a>
+    </header>
+
+    <main>
+        <div id="home-container">
+            <img id="home-image" src="res/header_image.png">
+            <p class="home-text">Experience something new</p>
+        </div>
+        <section class="content-section">
+            <div class="content-container">
+                <h1>What is Vertigo?</h1>
+                <hr>
+                <p id="about-text">
+                    Vertigo is a unique Minecraft shaderpack that brings a whole new layer of ambience to 
+                    your world. The most noticable thing about Vertigo
+                    is the fog, which gives this shader its distinct appearance. Vertigo also makes use 
+                    of PBR resource packs in combination with screen-space reflections to add more visual 
+                    fidelity to the game. Vertigo is fully customizable to suit your preference and 
+                    the capabilities of your hardware.
+                </p>
+                <a href="#features" class="info-button">MORE INFORMATION</a>
+                <div class="image-container">
+                    <a class="flex-item" href="res/ferris_wheel.png" target="blank_"><img class="screenshot"src="res/ferris_wheel.png"></a>
+                    <a class="flex-item" href="res/bridge.png" target="blank_"><img class="screenshot"src="res/bridge.png"></a>
+                </div>
+            </div>
+        </section>
+        <div class="parallax">
+            <h2>Stylized</h2>
+        </div>
+        
+        <section class="content-section">
+            <div class="content-container">
+                <h1 id="features"><i class="fa fa-info-circle"></i> Features</h1>
+                <hr>
+                <div class="list-container">
+                    <ul>
+                        <li>Atmospheric fog</li>
+                        <li>Volumetric light scattering</li>
+                        <li>Bloom</li>
+                        <li>Screen-space Reflections</li>
+                    </ul>
+                    <ul>
+                        <li>Normal map and specular map support</li>
+                        <li>Screen-space ambient occlusion</li>
+                        <li>Support for colour look-up-tables (LUTs)</li>
+                        <li>Runs well on low-end hardware</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <a class="flex-item" href="res/cyberpunk.png" target="blank_"><img class="screenshot" src="res/cyberpunk.png"></a>
+                    <a class="flex-item" href="res/screenshot2.png" target="blank_"><img class="screenshot" src="res/screenshot2.png"></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="parallax2">
+            <h2>Unique</h2>
+        </div>
+        <section class="content-section">
+            <div class="content-container">
+                <h1 id="compatability"><i class="fa fa-info-circle"></i> Compatability</h1>
+                <hr>
+                <p id="compatability-text">
+                    <i class="fa fa-check"></i> NVidia graphics cards
+                    <br>
+                    <i class="fa fa-check"></i> AMD graphics cards
+                    <br>
+                    <i class="fa fa-check"></i> Intel Integrated graphics
+                    <br>
+                    <i class="fa fa-check"></i> Works on MC 1.8+
+                </p>
+                <br>
+            </div>
+        </section>
+        <section class="content-section dark">
+            <div class="content-container dark">
+                <br>
+                <h1 id="download"><i class="fa fa-server"></i> Download</h1>
+                <hr>
+                <p id="download-text">
+                    Get the latest version of Vertigo, <b>V1.2</b>:
+                </p>
+                <a href="res/Vertigo_V1.2.zip" class="download-button" download>DOWNLOAD NOW</a>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="content-container">
+                <h1 id="gallery"><i class="fa fa-file-photo-o"></i> Gallery</h1>
+                <hr>
+                <div class="image-container">
+                    <a class="flex-item" href="res/valley.png" target="blank_"><img class="screenshot" src="res/valley.png"></a>
+                    <a class="flex-item" href="res/LUTshot1.png" target="blank_"><img class="screenshot" src="res/LUTshot1.png"></a>
+                    <a class="flex-item" href="res/LUTshot2.png" target="blank_"><img class="screenshot" src="res/LUTshot2.png"></a>
+                    <a class="flex-item" href="res/normalmap1.png" target="blank_"><img class="screenshot" src="res/normalmap1.png"></a>
+                    <a class="flex-item" href="res/LUTshot3.png" target="blank_"><img class="screenshot" src="res/LUTshot3.png"></a>
+                    <a class="flex-item" href="res/screenshot5.png" target="blank_"><img class="screenshot" src="res/screenshot5.png"></a>
+                </div>
+            </div>
+        </section>
+        <section class="content-section dark">
+            <div class="content-container dark">
+                <br>
+                <h1 id="contact"><i class="fa fa-address-book"></i> Contact</h1>
+                <hr>
+                <p id="download-text">
+                    My name is <b>Antonio Ferreras</b> and I am a passionate coder who loves <b>web and shader development</b>.
+                    Feel free to email me for any suggestions or issues you may have. Or join the ShaderLabs Discord 
+                    server for general shader help.
+                    <br>
+                    <br>
+                    <i class="fa fa-envelope"></i> <a target="blank_" class="link" href="mailto:antfs10@gmail.com">antfs10@gmail.com</a>
+                    <br>
+                    <i class="fab fa-github"></i> <a target="blank_" class="link" href="https://github.com/AntonioFerreras">AntonioFerreras</a>
+                    <br>
+                    <i class="fab fa-instagram"></i> <a target="blank_" class="link" href="https://www.instagram.com/antonio.ferreras1/">antonio.ferreras1</a>
+                    <br>
+                    <i class="fab fa-discord"></i> <a target="blank_" class="link" href="https://discord.gg/g6ERgVY">ShaderLabs Discord</a>
+                    
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <footer>
+        <small id="copyright"></small>
+    </footer>
+</body>
+
+</html>
