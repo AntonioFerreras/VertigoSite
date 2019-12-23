@@ -257,7 +257,6 @@ ul {
 }
 
 .parallax, .parallax2 {
-    display:block;
     /* The image used */
     background-image: url("res/screenshot1.png");
   
