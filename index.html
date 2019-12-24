@@ -2,10 +2,13 @@
 <html>
 
 <head>
+    <title>Vertigo MC shaderpack</title>
     <meta charset="utf_8">
     <meta name="author" content="Antonio Ferreras">
-    <meta name="description" content="The official home of the stylistic, Vertigo MC shader by SNURFx.">
-    <title>Vertigo MC shaderpack</title>
+    <meta name="description" content="The official home of the Vertigo Minecraft shaderpack by SNURFx.">
+    <meta name="keywords" content="Minecraft,Optifine,shader,shaderpack,Vertigo,snurf,SNURFx,mod,atmospheric,ambient">
+    <meta property="og:description" content="The official home of the Vertigo Minecraft shaderpack by SNURFx.">
+    <meta property="og:title" content="Vertigo MC shaderpack">
     <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
@@ -27,7 +30,12 @@
 
     <main>
         <div id="home-container">
-            <img id="home-image" src="res/header_image.png">
+            <picture>
+                <source id="home-image" media="(min-width: 651px)" srcset="res/header_image.png">
+                <source id="home-image" media="(max-width: 650px)" srcset="res/header-image-mobile.png">
+                <img id="home-image" src="res/header_image.png">
+              </picture>
+            
             <p class="home-text">Experience something new</p>
         </div>
         <section class="content-section">
